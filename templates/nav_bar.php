@@ -7,7 +7,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="<?php echo $pathToRoot; ?>">Rift motion</a>
+			<a class="navbar-brand" style="padding-bottom: 0em; padding-top: 0em;" href="<?php echo $pathToRoot; ?>">
+				<img id="brand-img" src="<?php echo $pathToRoot; ?>assets/images/rm-logo.png">
+				<font style="display: inline-block;vertical-align: sub;">Rift motion</font>
+			</a>
 		</div>
 	    <div class="collapse navbar-collapse">
 	      <ul class="nav navbar-nav navbar-right">

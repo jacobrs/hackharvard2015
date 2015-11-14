@@ -59,7 +59,7 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 	position: absolute;
     left: 0;
     bottom: 0;
-    height: 6em;
+    height: 6.5em;
     width: 100%;
     overflow: hidden;
     background-color: #A41034;
@@ -111,11 +111,6 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 	display: block;
 }
 
-/* Team page css */
-
-#team-photo-holder{
-	margin-bottom: 2em;
-    margin-top: 1em;
 .carousel-indicators li {
   background-color: #A41034;
   background-color: rgba(70,70,70,.25);
@@ -123,4 +118,85 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 
 .carousel-indicators .active {
   background-color: #A41034;
+}
+
+.carousel-inner>.item>img{
+	width: 100%;
+}
+
+#whatWeUse{
+	padding-bottom: 0em;
+}
+
+#whatWeDo{
+	padding-bottom: 3em;
+}
+
+#ourVision{
+	padding-bottom: 3em;
+}
+
+#whatWeDoText{
+	margin-bottom: 3em;
+}
+
+#whatWeUserText{
+	margin-bottom: 0em;
+}
+
+.navbar-brand>img{
+    display: inline-block;
+    width: 35px;
+    margin-top: 0.4em;
+}
+
+/* Team page css */
+
+#team-photo-holder{
+	margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.title{
+		margin-top: 0.65em;
+	}
+
+	#oculusRiftHolder{
+		margin-left: 2em;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#oculusRiftHolder{
+		margin-left: 0em;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.title{
+		margin-top :0em;
+	}
+
+	.bottom-content-descriptions{
+		margin-bottom: 1.5em;
+		text-align: justify;
+	}
+
+	.title{
+		margin-bottom: 1em;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
 }

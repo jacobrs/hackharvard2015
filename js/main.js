@@ -4,7 +4,7 @@ $(document).ready(function(){
 	// Teams page waypoints
 	if(thisPage.toLowerCase() == "team"){
 		// Darrin Fong waypoint
-		var waypoint2 = new Waypoint({
+		var waypoint1 = new Waypoint({
 		  element: document.getElementById('darrinFong'),
 		  handler: function(direction) {
 		  	$('#darrinFong').css("visibility", "visible").addClass("animated slideInLeft");
@@ -71,6 +71,16 @@ $(document).ready(function(){
 		  element: document.getElementById('whatWeUse'),
 		  handler: function(direction) {
 		  	$('#whatWeUse').css("visibility", "visible").addClass("animated slideInRight");
+		  	delete this;
+		  },
+		  offset: '100%'
+		});
+
+		// Dylan Fernandes waypoint
+		var waypoint8 = new Waypoint({
+		  element: document.getElementById('whatWeArePlanning'),
+		  handler: function(direction) {
+		  	$('#whatWeArePlanning').css("visibility", "visible").addClass("animated slideInRight");
 		  	delete this;
 		  },
 		  offset: '100%'

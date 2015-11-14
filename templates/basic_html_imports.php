@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo $pathToRoot; ?>assets/images/rm-logo.png" />
+
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500" rel="stylesheet" type="text/css">
 <link href="<?php echo $pathToRoot; ?>css/Normalize.css" rel="stylesheet" type="text/css">
 <link href="<?php echo $pathToRoot; ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
