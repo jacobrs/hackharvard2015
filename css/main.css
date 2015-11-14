@@ -107,3 +107,12 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 	margin-top: 1.5em;
 	display: block;
 }
+
+.carousel-indicators li {
+  background-color: #A41034;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #A41034;
+}
