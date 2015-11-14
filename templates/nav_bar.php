@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">AppName</a>
+			<a class="navbar-brand" href="#">Occulus Rift and Leap Motion</a>
 		</div>
 	    <div class="collapse navbar-collapse">
 	      <ul class="nav navbar-nav navbar-right">

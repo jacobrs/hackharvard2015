@@ -1,3 +1,16 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	margin: 0 0 6em;
+}
+
+a, p, h1, h2, h3, h4, h5 ,h6, font{
+	font-family: 'Roboto', sans-serif;
+}
+
 .harvard-text{
 	color: #A41034;
 }
@@ -8,4 +21,78 @@
 
 .harvard-border{
 	border-color: #A41034;
+}
+
+.navbar{
+	background-color: #A41034;
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    margin: 0em;
+}
+
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #711D2F;
+    background-image: none;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #ccc;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #711D2F;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: transparent;
+}
+
+.footer{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 6em;
+    width: 100%;
+    overflow: hidden;
+    background-color: #A41034;
+}
+
+.white{
+	color: #fff;
+}
+
+.footer-icon{
+	font-size: 3em;
+	margin-right: 0.3em;
+}
+
+.fa-github{
+	color: #000;
+}
+
+.bottom-content{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.bottom-content-top-row{
+	padding-bottom: 2em;
+}
+
+.title{
+	font-weight: bold;
 }
