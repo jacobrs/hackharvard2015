@@ -11,16 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500" rel="stylesheet" type="text/css">
-		<link href="<?php echo $pathToRoot; ?>css/Normalize.css" rel="stylesheet" type="text/css">
-		<link href="<?php echo $pathToRoot; ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="<?php echo $pathToRoot; ?>css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-		<link href="<?php echo $pathToRoot; ?>css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="<?php echo $pathToRoot; ?>css/main.css" rel="stylesheet" type="text/css">
-
-		<script src="<?php echo $pathToRoot; ?>js/jquery-2.1.4.min.js"></script>
-		<script src="<?php echo $pathToRoot; ?>js/bootstrap.min.js"></script>
-		<script src="<?php echo $pathToRoot; ?>js/main.js"></script>
+		<script>
+			var thisPage = "team";
+		</script>
+		<?php 
+			require_once($pathToRoot."templates/basic_html_imports.php");
+		?>
 	</head>
 	<body>
 		<?php require_once($pathToRoot."templates/nav_bar.php"); ?>
@@ -29,12 +25,12 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-10 col-lg-offset-1 bottom-content">
-							<div class="row">
+							<div id="team-photo-holder" class="row">
 								<div class="col-lg-4 col-lg-offset-4">
-									<img src="http://trafikaeurope.org/wp-content/uploads/2015/03/test_in_red.jpg" style="width: 100%;">
+									<img src="<?php echo $pathToRoot; ?>assets/images/teamRaidMotion.jpg" style="width: 100%;">
 								</div>
 							</div>
-							<div class="row bottom-content-rows">
+							<div id="darrinFong" class="row bottom-content-rows" style="visibility: hidden;">
 								<div class="col-lg-7 col-lg-push-5 col-xs-11 col-xs-push-0">
 									<h2 class="title">Darrin Fong</h2>
 									<font class="bottom-content-descriptions">
@@ -46,7 +42,7 @@
 									<img src="http://trafikaeurope.org/wp-content/uploads/2015/03/test_in_red.jpg" style="width: 100%;"></img>
 								</div>
 							</div>
-							<div class="row bottom-content-rows">
+							<div id="benjaminBarault" class="row bottom-content-rows" style="visibility: hidden;">
 								<div class="col-lg-7 col-xs-12">
 									<h2 class="title">Benjamin-Marco Barault</h2>
 									<font class="bottom-content-descriptions">
@@ -58,7 +54,7 @@
 									<img src="http://trafikaeurope.org/wp-content/uploads/2015/03/test_in_red.jpg" style="width: 100%;"></img>
 								</div>
 							</div>
-							<div class="row bottom-content-rows">
+							<div id="jacobGagne" class="row bottom-content-rows" style="visibility: hidden;">
 								<div class="col-lg-7 col-lg-push-5 col-xs-11 col-xs-push-0">
 									<h2 class="title">Jacob Gagne</h2>
 									<font class="bottom-content-descriptions">
@@ -70,7 +66,7 @@
 									<img src="http://trafikaeurope.org/wp-content/uploads/2015/03/test_in_red.jpg" style="width: 100%;"></img>
 								</div>
 							</div>
-							<div class="row bottom-content-rows">
+							<div id="dylanFernandes" class="row bottom-content-rows" style="visibility: hidden;">
 								<div class="col-lg-7 col-xs-12">
 									<h2 class="title">Dylan Fernandes</h2>
 									<font class="bottom-content-descriptions">
@@ -79,7 +75,7 @@
 									</font>
 								</div>
 								<div class="col-lg-5 col-xs-12">
-									<img src="http://trafikaeurope.org/wp-content/uploads/2015/03/test_in_red.jpg" style="width: 100%;"></img>
+									<img src="<?php echo $pathToRoot; ?>assets/images/dylanFernandes.jpg" style="width: 100%;"></img>
 								</div>
 							</div>
 						</div>

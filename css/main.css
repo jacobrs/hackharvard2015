@@ -11,18 +11,6 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 	font-family: 'Roboto', sans-serif;
 }
 
-.harvard-text{
-	color: #A41034;
-}
-
-.harvard-background{
-	background-color: #A41034;
-}
-
-.harvard-border{
-	border-color: #A41034;
-}
-
 .navbar{
 	background-color: #A41034;
     background-image: none;
@@ -77,17 +65,9 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
     background-color: #A41034;
 }
 
-.white{
-	color: #fff;
-}
-
 .footer-icon{
 	font-size: 3em;
 	margin-right: 0.3em;
-}
-
-.fa-github{
-	color: #000;
 }
 
 .bottom-content{
@@ -97,6 +77,29 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 
 .bottom-content-rows{
 	padding-bottom: 2em;
+	display: none;
+}
+
+/* Home page css */
+
+.harvard-text{
+	color: #A41034;
+}
+
+.harvard-background{
+	background-color: #A41034;
+}
+
+.harvard-border{
+	border-color: #A41034;
+}
+
+.white{
+	color: #fff;
+}
+
+.fa-github{
+	color: #000;
 }
 
 .title{
@@ -106,4 +109,11 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 .bottom-content-descriptions{
 	margin-top: 1.5em;
 	display: block;
+}
+
+/* Team page css */
+
+#team-photo-holder{
+	margin-bottom: 2em;
+    margin-top: 1em;
 }
