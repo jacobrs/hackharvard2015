@@ -33,6 +33,12 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 
 .navbar-default .navbar-brand{
 	color: #fff;
+	font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
@@ -89,10 +95,15 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 	padding-bottom: 2em;
 }
 
-.bottom-content-top-row{
+.bottom-content-rows{
 	padding-bottom: 2em;
 }
 
 .title{
 	font-weight: bold;
+}
+
+.bottom-content-descriptions{
+	margin-top: 1.5em;
+	display: block;
 }
