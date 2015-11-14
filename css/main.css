@@ -116,4 +116,11 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 #team-photo-holder{
 	margin-bottom: 2em;
     margin-top: 1em;
+.carousel-indicators li {
+  background-color: #A41034;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #A41034;
 }
