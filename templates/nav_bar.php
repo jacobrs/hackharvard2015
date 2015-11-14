@@ -11,9 +11,9 @@
 		</div>
 	    <div class="collapse navbar-collapse">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li class="active"><a href="#">Home</a></li>
-	        <li><a href="#">The Team</a></li>
-	        <li><a href="#">Uploaded Models</a></li>
+	        <li <?php if($thisPage == "home"){ echo 'class="active"'; } ?>><a href="<?php echo $pathToRoot; ?>index.php">Home</a></li>
+	        <li <?php if($thisPage == "team"){ echo 'class="active"'; } ?>><a href="<?php echo $pathToRoot; ?>team.php">The Team</a></li>
+	        <li <?php if($thisPage == "uploads"){ echo 'class="active"'; } ?>><a href="<?php echo $pathToRoot; ?>uploads.php">Uploaded Models</a></li>
 	      </ul>
 	    </div>
 	</div>

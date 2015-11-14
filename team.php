@@ -1,8 +1,7 @@
 <?php
-	$thisPage = "home";
+	$thisPage = "team";
 	$pathToRoot = "./";
 ?>
-<!DOCTYPE html>
 <html>
 	<head>
 		<title>HackHarvard</title>
