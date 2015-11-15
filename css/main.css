@@ -175,7 +175,7 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 
 .carousel-inner>.item>img{
 	width: 100%;
-    min-height: 500px;
+    min-height: 560px;
 }
 
 .carousel-caption h2{
@@ -200,6 +200,18 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 
 .members-title{
 	margin-bottom: 1.5em;
+}
+
+.team-member-title{
+	display: inline-block;
+}
+
+.team-member-linkedin{
+	margin-left: 1em;
+}
+
+.team-member-linkedin i{
+	font-size: 2em;
 }
 
 /* Guide css */

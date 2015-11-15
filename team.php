@@ -36,10 +36,12 @@
 							<div class="col-lg-10 col-lg-push-1 memberHolder">
 								<div id="darrinFong" class="row bottom-content-rows" style="visibility: hidden;">
 									<div class="col-lg-7 col-lg-push-5 col-xs-12 col-xs-push-0">
-										<h2 class="title">Darrin Fong</h2>
+										<h2 class="title team-member-title">Darrin Fong</h2><a class="team-member-linkedin" href="https://ca.linkedin.com/in/darrinfong"><i class="fa fa-linkedin-square"></i></a>
 										<font class="bottom-content-descriptions">
-											Usu eu unum omnium, usu at fabulas nominavi appareat, movet iriure consectetuer nec ei. Melius omnium adipiscing id vix, an duo tractatos ullamcorper. An qui inani phaedrum consetetur. Sed illud corpora te, amet esse at cum, quem ullamcorper et his. Quem choro definiebas sea ut, at quando delicata elaboraret eum, cu nec fastidii deleniti sapientem.
-											Et alterum utroque scriptorem sea, lobortis iudicabit scriptorem ea vis. Et modus veniam quo, tation libris delicatissimi an usu, vix cibo populo eu. Sed ex nonumy mentitum iracundia. Sea ea equidem accusam, fuisset senserit sapientem eam te. Sed ea eripuit euripidis constituto, et suas legimus voluptua eos. Graeco nominati an vim. Iracundia aliquando theophrastus cu est, percipitur reprehendunt mei eu.
+											I have always been into DIY projects since it's always satisfying to realize you created something. 
+											I got into coding when I realize I can create something without even paying for the material...
+											I was actually inspired by one of my friend during high school when he got over fifty thousand downloads from Google Play Store with one of his app. 
+											My dream is to have my own company... so I can stay home and read dank memes.
 										</font>
 									</div>
 									<div class="col-lg-4 col-lg-pull-7 col-xs-12 col-xs-pull-0">
@@ -52,7 +54,7 @@
 							<div class="col-lg-10 col-lg-push-1 memberHolder">
 								<div id="benjaminBarault" class="row bottom-content-rows" style="visibility: hidden;">
 									<div class="col-lg-7 col-xs-12">
-										<h2 class="title">Benjamin-Marco Barault</h2>
+										<h2 class="title team-member-title">Benjamin-Marco Barault</h2><a class="team-member-linkedin" href="https://ca.linkedin.com/in/benjamin-barault-a3269792"><i class="fa fa-linkedin-square "></i></a>
 										<font class="bottom-content-descriptions">
 											I am a 
 											<?php 
@@ -78,10 +80,18 @@
 							<div class="col-lg-10 col-lg-push-1 memberHolder">
 								<div id="jacobGagne" class="row bottom-content-rows" style="visibility: hidden;">
 									<div class="col-lg-7 col-lg-push-5 col-xs-12 col-xs-push-0">
-										<h2 class="title">Jacob Gagne</h2>
+										<h2 class="title team-member-title">Jacob Gagne</h2><a class="team-member-linkedin" href="https://ca.linkedin.com/in/jacob-gagne-b2609247"><i class="fa fa-linkedin-square "></i></a>
 										<font class="bottom-content-descriptions">
-											Usu eu unum omnium, usu at fabulas nominavi appareat, movet iriure consectetuer nec ei. Melius omnium adipiscing id vix, an duo tractatos ullamcorper. An qui inani phaedrum consetetur. Sed illud corpora te, amet esse at cum, quem ullamcorper et his. Quem choro definiebas sea ut, at quando delicata elaboraret eum, cu nec fastidii deleniti sapientem.
-											Et alterum utroque scriptorem sea, lobortis iudicabit scriptorem ea vis. Et modus veniam quo, tation libris delicatissimi an usu, vix cibo populo eu. Sed ex nonumy mentitum iracundia. Sea ea equidem accusam, fuisset senserit sapientem eam te. Sed ea eripuit euripidis constituto, et suas legimus voluptua eos. Graeco nominati an vim. Iracundia aliquando theophrastus cu est, percipitur reprehendunt mei eu.
+											I am a 
+											<?php 
+												$birthday = new DateTime("1995-05-18");
+												$birthdayTime = strtotime($birthday->format("Y"));
+												$nowTime      = strtotime((new DateTime())->format("Y"));
+												echo floor((($nowTime-$birthdayTime)/(60*60*24*365)));
+											?> 
+											year old programmer from Montreal, Quebec that has about 5 years of experience in the field. I am currently studying at Concordia University in Software Engineering and 
+											I am enjoying it. At the moment I am working on several personal projects, one of them which will be released soon is a company that I co-own. My goal in life: going to 
+											space.
 										</font>
 									</div>
 									<div class="col-lg-4 col-lg-pull-7 col-xs-12 col-xs-pull-0">
@@ -94,7 +104,7 @@
 							<div class="col-lg-10 col-lg-push-1 memberHolder">
 								<div id="dylanFernandes" class="row bottom-content-rows" style="visibility: hidden;">
 									<div class="col-lg-7 col-xs-12">
-										<h2 class="title">Dylan Fernandes</h2>
+										<h2 class="title team-member-title">Dylan Fernandes</h2><a class="team-member-linkedin" href="https://ca.linkedin.com/in/dylan-fernandes-a608a6b1"><i class="fa fa-linkedin-square"></i></a>
 										<font class="bottom-content-descriptions">
 											I am a 
 											<?php 

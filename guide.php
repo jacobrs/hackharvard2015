@@ -48,23 +48,30 @@
 							</p>
 						</div>
 						<div id="tutorialThree" class="tab-pane fade">
+							<h4>Creating</h4>
 							<p>
-								Tagging is feature that can be used for marking 3D models and either leaving yourself or somebody else
+								Tagging is feature that can be used for marking 3D models and either used for leaving yourself or somebody else
 							 	a note, this note can be about anything. For example if we had a 3D model of a human skeleton then we would
 							 	use tagging to study the skeletal structure. Tagging will become more useful when you share your 3D models 
 							 	with your colleagues because tags will be saved alongside the models.
 							</p>
+							<br>
+							<h4>Cancelling</h4>
+							<p>
+								If the app accidentally thinks you wanted to create a tag when you did not, then simply click enter while leaving the tag
+								name empty and it will stop prompting you for a tag name.
 						</div>
 						<div id="tutorialFour" class="tab-pane fade">
 							<p>
+								(<b>Note this has not been implemented yet but will be implemented soon after the hackathon</b>)
 								At the moment we only give you the option to delete all your tags, further down the line you will be given the option
-								to delete one at a time. To delete all of the current tags on your 3D model you must spin your index clockwise.
+								to delete one at a time. To delete all of the current tags on your 3D model you must spin your index finger clockwise.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-8 col-lg-push-2">
-					<p class="text-center" style="margin-top: 1em;"><small>Feel free to ask Jacob, Dylan, Darrin or Ben any questions if you are still confused with something</small></p>
+					<p class="text-center" style="margin-top: 1em;"><small style="padding-bottom: 1em;display: inline-block;">Feel free to ask Jacob, Dylan, Darrin or Ben any questions if you are still confused with something</small></p>
 				</div>
 			</div>
 		</div>

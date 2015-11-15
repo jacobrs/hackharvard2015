@@ -68,7 +68,7 @@
 									<font id="ourVisionText" class="bottom-content-descriptions">
 										With the recent rise in Virtual Reality and Gesture Sensors we saw our opportunity to create something that can affect students around the globe. 
 										With technologies like the Oculus Rift and Leap Motion available in the market we thought up an idea which has been recently gaining traction: online collaboration. 
-										We hope that in the future that people can use our product and learn something new, if that happens then we have accomplished our mission.
+										We hope that in the future people can use our product and learn something new, if that happens then we have accomplished our mission.
 									</font>
 								</div>
 								<div class="col-lg-3 col-lg-push-1 col-xs-6 col-xs-push-3" id="ourVisionHolder">
@@ -85,7 +85,8 @@
 									<font id="whatWeDoText" class="bottom-content-descriptions">
 										MotionLab is a software which allows users to interact with 3D models. 
 										Our website currently lets users upload 3D models which other users can download for educational purposes. 
-										These 3D models also come with tags that the user has placed on the model, this can help students learn the structure of specific objects while also learning about the smaller details.
+										These 3D models also come with tags that the user can place on the model, 
+										this can help students learn about the structure of objects.
 									</font>
 								</div>
 								<div id="modelingHolder" class="col-lg-3 col-lg-pull-8 col-lg-push-0 col-xs-6 col-xs-pull-0 col-xs-push-3">
