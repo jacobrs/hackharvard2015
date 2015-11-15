@@ -104,6 +104,7 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 
 .title{
 	font-weight: bold;
+	margin-top: 0em;
 }
 
 .bottom-content-descriptions{
@@ -125,15 +126,23 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 }
 
 #whatWeUse{
-	padding-bottom: 0em;
+	padding-bottom: 3em;
+    padding-top: 2em;
 }
 
 #whatWeDo{
-	padding-bottom: 3em;
+	padding-bottom: 2em;
+    padding-top: 3em;
 }
 
 #ourVision{
-	padding-bottom: 3em;
+	padding-bottom: 4em;
+	padding-top: 2em;
+}
+
+#whatWeArePlanning{
+	padding-bottom: 4em;
+	padding-top: 3em;
 }
 
 #whatWeDoText{
@@ -150,11 +159,48 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
     margin-top: 0.4em;
 }
 
+.even-row{
+	background-color: #F1F1F1;
+	display: inline-block;
+	width: 100%;
+}
+
+#ourVisionHolder{
+	margin-top: 3em;
+}
+
+#whatWeArePlanningCont{
+	margin-top: 1em;
+}
+
+.carousel-inner>.item>img{
+	width: 100%;
+    min-height: 500px;
+}
+
 /* Team page css */
 
 #team-photo-holder{
 	margin-bottom: 2em;
     margin-top: 1em;
+}
+
+.memberHolder{
+	padding-top: 4em;
+	padding-bottom: 3em;
+}
+
+#teamContentHolder{
+	padding: 0em;
+}
+
+.members-title{
+	margin-bottom: 1.5em;
+}
+
+/* Guide css */
+.guide-text{
+	font-size: 1.1em;
 }
 
 /* Large Devices, Wide Screens */
@@ -171,16 +217,16 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	#oculusRiftHolder{
-		margin-left: 0em;
+		margin-left: 1em;
+	}
+
+	#modelingHolder{
+		margin-top: 1em;
 	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.title{
-		margin-top :0em;
-	}
-
 	.bottom-content-descriptions{
 		margin-bottom: 1.5em;
 		text-align: justify;
@@ -188,6 +234,18 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 
 	.title{
 		margin-bottom: 1em;
+	}
+
+	.memberHolder{
+		padding-top: 0em;
+	}
+
+	.members-title{
+		margin-bottom: 1em;
+	}
+
+	#whatWeArePlanningCont{
+		margin-top: 0em;
 	}
 }
 

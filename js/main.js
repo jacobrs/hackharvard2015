@@ -80,11 +80,13 @@ $(document).ready(function(){
 		var waypoint8 = new Waypoint({
 		  element: document.getElementById('whatWeArePlanning'),
 		  handler: function(direction) {
-		  	$('#whatWeArePlanning').css("visibility", "visible").addClass("animated slideInRight");
+		  	$('#whatWeArePlanning').css("visibility", "visible").addClass("animated slideInLeft");
 		  	delete this;
 		  },
 		  offset: '100%'
 		});
+
+		$('.content').css("visibility", "visible");
 	}
 });
 

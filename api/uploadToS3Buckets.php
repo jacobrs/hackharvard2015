@@ -23,26 +23,32 @@
             $return['error'] = "Unknown errors";
 	}
 
-	if ($_FILES['upfile']['size'] > 1000000) {
+	if ($_FILES['upfile']['size'] > 40000000) {
+		var_dump($_FILES['upfile']['size']);
         $return['error'] = "Exceeded filesize limit";
     }
 
-    // DO NOT TRUST $_FILES['upfile']['mime'] VALUE !!
-    // Check MIME Type by yourself.
-    $finfo = new finfo(FILEINFO_MIME_TYPE);
-    if (false === $ext = array_search($finfo->file($_FILES['upfile']['tmp_name']), array(
-			'obj' => 'text/plain'), true)) {
-        $return['error'] = 'Invalid file format';
-    }
-
     if(!isset($return['error'])){
-		// Instantiate the S3 client with your AWS credentials
-		$S3Client = S3Client::factory(array(
-		    'credentials' => array(
-		        'key'    => 'AKIAIO46DECE4HEKKDIQ',
-		        'secret' => 'zf3UESxNffNQgJPGyNkw7uhR0YbHFSTBH1d77X0l',
-		    )
-		));
+		try{
+			// Instantiate the S3 client with your AWS credentials
+			$S3Client = S3Client::factory(array(
+			    'credentials' => array(
+			        'key'    => 'AKIAIO46DECE4HEKKDIQ',
+			        'secret' => 'zf3UESxNffNQgJPGyNkw7uhR0YbHFSTBH1d77X0l',
+			    )
+			));
+
+			$S3Client->putObject([
+			    'Bucket' => 'harvardhackathon',
+				'Key' => "3DModels/{$_FILES['upfile']['name']}",
+				'Body' => fopen($_FILES['upfile']["tmp_name"], 'rb'),
+				'ACL' => 'public-read',
+			]);
+		}catch(Exception $e){
+			$return['error'] = $e->getMessage();
+			echo json_encode($return);
+			exit;
+		}
 
 		$return['success'] = "Successfully pushed to S3Bucket";
     }

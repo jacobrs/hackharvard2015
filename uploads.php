@@ -1,13 +1,18 @@
 <?php 
 	$thisPage = "uploads";
 	$pathToRoot = "./";
+	require_once($pathToRoot."aws/vendor/autoload.php");
 
+	// Add to S3Bucket
+    use Aws\S3\S3Client;
+
+    require_once($pathToRoot."classes/Model.php");
 	require_once($pathToRoot."scripts/common.php");
 ?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Rift Motion</title>
+		<title>MotionLab</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -34,7 +39,15 @@
 							</thead>
 							<tbody>
 								<?php
-									$models = getUploadedModels();
+									// Instantiate the S3 client with your AWS credentials
+									$S3Client = S3Client::factory(array(
+									    'credentials' => array(
+									        'key'    => 'AKIAIO46DECE4HEKKDIQ',
+									        'secret' => 'zf3UESxNffNQgJPGyNkw7uhR0YbHFSTBH1d77X0l',
+									    )
+									));
+
+									$models = getUploadedModels($S3Client);
 
 									if(count($models) <= 0){
 								?>
@@ -42,16 +55,11 @@
 									<td>No information available</td>
 								<?php
 									}else{
-										$i = 0;
 										foreach($models as $model){
-											if($i >= 10){
-												break;
-											}
 								?>
-												<td><a href="<?php echo $model->getLink(); ?>"><?php echo $model->getName(); ?></a></td>
-												<td><?php echo $modal->getUploadDate(); ?></td>
+											<td><a href="<?php echo $model->getLink(); ?>"><?php echo $model->getName(); ?></a></td>
+											<td><?php echo $model->getUploadDate(); ?></td>				
 								<?php
-											$i++;
 										}
 									}
 								?>
