@@ -51,14 +51,18 @@
 
 									if(count($models) <= 0){
 								?>
-									<td>No information available</td>
-									<td>No information available</td>
+									<tr>
+										<td>No information available</td>
+										<td>No information available</td>
+									</tr>
 								<?php
 									}else{
 										foreach($models as $model){
 								?>
+										<tr>
 											<td><a href="<?php echo $model->getLink(); ?>"><?php echo $model->getName(); ?></a></td>
 											<td><?php echo $model->getUploadDate(); ?></td>				
+										</tr>
 								<?php
 										}
 									}
