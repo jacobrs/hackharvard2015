@@ -178,6 +178,10 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
     min-height: 500px;
 }
 
+.carousel-caption h2{
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
 /* Team page css */
 
 #team-photo-holder{
@@ -200,7 +204,48 @@ a, p, h1, h2, h3, h4, h5 ,h6, font{
 
 /* Guide css */
 .guide-text{
-	font-size: 1.1em;
+	font-size: 1.2em;
+}
+
+#generalInteractions{
+	margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#zoomingGuide{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.odd-guide-text{
+	padding-left: 0em
+}
+
+.even-guide-text{
+	padding-right: 0em;
+}
+
+.tab-content-text{
+	font-size: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid #ddd 1px;
+    border-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 1em;
+}
+
+#tutorialTabs>li>a{
+	color: #BD314F;
+}
+
+#tutorialTabs>li.active>a{
+	color: #000;
+}
+
+#guideHeader{
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
 }
 
 /* Large Devices, Wide Screens */

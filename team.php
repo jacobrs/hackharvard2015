@@ -54,8 +54,18 @@
 									<div class="col-lg-7 col-xs-12">
 										<h2 class="title">Benjamin-Marco Barault</h2>
 										<font class="bottom-content-descriptions">
-											Usu eu unum omnium, usu at fabulas nominavi appareat, movet iriure consectetuer nec ei. Melius omnium adipiscing id vix, an duo tractatos ullamcorper. An qui inani phaedrum consetetur. Sed illud corpora te, amet esse at cum, quem ullamcorper et his. Quem choro definiebas sea ut, at quando delicata elaboraret eum, cu nec fastidii deleniti sapientem.
-											Et alterum utroque scriptorem sea, lobortis iudicabit scriptorem ea vis. Et modus veniam quo, tation libris delicatissimi an usu, vix cibo populo eu. Sed ex nonumy mentitum iracundia. Sea ea equidem accusam, fuisset senserit sapientem eam te. Sed ea eripuit euripidis constituto, et suas legimus voluptua eos. Graeco nominati an vim. Iracundia aliquando theophrastus cu est, percipitur reprehendunt mei eu.
+											I am a 
+											<?php 
+												$birthday = new DateTime("1994-09-26");
+												$birthdayTime = strtotime($birthday->format("Y"));
+												$nowTime      = strtotime((new DateTime())->format("Y"));
+												echo floor((($nowTime-$birthdayTime)/(60*60*24*365)));
+											?> 
+											year old programmer who has been programming for approximately 4 years now. 
+											Within these 4 years I worked on my most proud achievement which has yet to be released. 
+											It's an app that I have been working on with my friends for the past 2 years. 
+											My short term goals include passing all my University courses and getting a Masters degree in Software Engineering. 
+											Finally I will leave you with one of my favorite quotes "Jack of all trades, master of none, though oftentimes better than the master of one".
 										</font>
 									</div>
 									<div class="col-lg-4 col-lg-push-1 col-xs-12">
@@ -86,8 +96,17 @@
 									<div class="col-lg-7 col-xs-12">
 										<h2 class="title">Dylan Fernandes</h2>
 										<font class="bottom-content-descriptions">
-											Usu eu unum omnium, usu at fabulas nominavi appareat, movet iriure consectetuer nec ei. Melius omnium adipiscing id vix, an duo tractatos ullamcorper. An qui inani phaedrum consetetur. Sed illud corpora te, amet esse at cum, quem ullamcorper et his. Quem choro definiebas sea ut, at quando delicata elaboraret eum, cu nec fastidii deleniti sapientem.
-											Et alterum utroque scriptorem sea, lobortis iudicabit scriptorem ea vis. Et modus veniam quo, tation libris delicatissimi an usu, vix cibo populo eu. Sed ex nonumy mentitum iracundia. Sea ea equidem accusam, fuisset senserit sapientem eam te. Sed ea eripuit euripidis constituto, et suas legimus voluptua eos. Graeco nominati an vim. Iracundia aliquando theophrastus cu est, percipitur reprehendunt mei eu.
+											I am a 
+											<?php 
+												$birthday = new DateTime("1995-05-10");
+												$birthdayTime = strtotime($birthday->format("Y"));
+												$nowTime      = strtotime((new DateTime())->format("Y"));
+												echo floor((($nowTime-$birthdayTime)/(60*60*24*365)));
+											?> 
+											programmer that was born in Montreal. I first encountered programming while studying Computer Science in CEGEP. 
+											The endless possibilities that were available in this field greatly arose my interest in it. My greatest achievement to
+											this day is graduating from John Abbott College in Computer Science. I am currently studying Software Engineering
+											at Concordia University and I am looking forward to discover more about this field.
 										</font>
 									</div>
 									<div class="col-lg-4 col-lg-push-1 col-xs-12">
