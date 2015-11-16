@@ -113,7 +113,7 @@
 												$nowTime      = strtotime((new DateTime())->format("Y"));
 												echo floor((($nowTime-$birthdayTime)/(60*60*24*365)));
 											?> 
-											programmer that was born in Montreal. I first encountered programming while studying Computer Science in CEGEP. 
+											year old programmer that was born in Montreal. I first encountered programming while studying Computer Science in CEGEP. 
 											The endless possibilities that were available in this field greatly arose my interest in it. My greatest achievement to
 											this day is graduating from John Abbott College in Computer Science. I am currently studying Software Engineering
 											at Concordia University and I am looking forward to discover more about this field.
