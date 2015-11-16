@@ -54,7 +54,7 @@
 							<div class="col-lg-10 col-lg-push-1 memberHolder">
 								<div id="benjaminBarault" class="row bottom-content-rows" style="visibility: hidden;">
 									<div class="col-lg-7 col-xs-12">
-										<h2 class="title team-member-title">Benjamin-Marco Barault</h2><a class="team-member-linkedin" href="https://ca.linkedin.com/in/benjamin-barault-a3269792"><i class="fa fa-linkedin-square "></i></a>
+										<h2 class="title team-member-title">Benjamin-Marco Barault</h2><a class="team-member-linkedin" href="https://www.linkedin.com/in/benjaminbarault"><i class="fa fa-linkedin-square "></i></a>
 										<font class="bottom-content-descriptions">
 											I am a 
 											<?php 
