@@ -33,8 +33,8 @@
 			// Instantiate the S3 client with your AWS credentials
 			$S3Client = S3Client::factory(array(
 			    'credentials' => array(
-			        'key'    => 'AKIAIO46DECE4HEKKDIQ',
-			        'secret' => 'zf3UESxNffNQgJPGyNkw7uhR0YbHFSTBH1d77X0l',
+			        'key'    => 'key',
+			        'secret' => 'secret',
 			    )
 			));
 
